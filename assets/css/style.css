@@ -1,0 +1,67 @@
+/* Stile per le etichette delle categorie e delle nuove descrizioni */
+label[for="product_category"], label[for="new_description"] {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Stile per il campo di selezione delle categorie */
+#product_category {
+    margin-left: 10px;
+}
+
+/* Stile per i pulsanti di invio */
+button[type="submit"] {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Stile per il footer */
+.footer-credits {
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.footer-credits img {
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.temp-description {
+    display: block;
+    width: 100%;
+    clear: both;
+}
